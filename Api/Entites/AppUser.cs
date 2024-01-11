@@ -7,5 +7,8 @@ namespace Api.Entites
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }
+
+        public string PasswordHash { get; set; }
+        public string passwordSalt { get; set; }
     }
 }
